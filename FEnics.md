@@ -5,15 +5,11 @@ to have a working installation.
 1. First you have to have properly installed [Roseta](https://support.apple.com/en-us/HT211861)
 2. Once you have that, proceed with the instalation of Conda.
 3. Create a Conda environment using:
-    `bash
-    conda create -n fenics`
-    `bash
-    conda activate fenics`
+    * `conda create -n fenics`
+    * `conda activate fenics`
 4. Configure properly the environment, as follows:
-    `bash
-    conda config --env --set subdir osx-64`
+    * `conda config --env --set subdir osx-64`
 5. Proceed to install FEniCS as usual:
-    `bash
-    conda install fenics`
+    * `conda install fenics`
 
 And that's it!
